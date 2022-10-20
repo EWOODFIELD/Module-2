@@ -1,0 +1,41 @@
+.flexbox-container {
+    display: flex;
+    background-color: grey;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.flexbox-item-1 {
+    flex: 4;
+    text-align: center;
+    align-items: flex-end;
+    background-color: blue;
+    flex-basis: 50%;
+}
+
+
+.flexbox-item-2 {
+  flex: 3;
+  text-align: center;
+  align-items: flex-end;
+  background-color: blue;
+  flex-basis: 50%;
+}
+
+.flexbox-item-3 {
+    flex: 2;
+    align-items: flex-end;
+    background-color: blue;
+    flex-basis: 50%;
+}
+
+.flexbox-item-4 {
+    flex: 1;
+    align-items: flex-end;
+    background-color: blue;
+    flex-basis: 50%;
+}
+
+.flexbox-space-between {
+    justify-content: space-between;
+}
